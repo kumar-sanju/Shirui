@@ -112,11 +112,14 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-//        switch (item.getItemId()){
-//            case R.id.nav_categories:
-//                startActivity(new Intent(getApplicationContext(),CategoriesActivity.class));
-//                break;
-//        }
+        switch (item.getItemId()){
+            case R.id.nav_categories:
+                startActivity(new Intent(getApplicationContext(),CategoriesActivity.class));
+                break;
+            case R.id.nav_home:
+                startActivity(new Intent(getApplicationContext(),HomeActivity.class));
+                break;
+        }
         return true;
     }
     // for navigation

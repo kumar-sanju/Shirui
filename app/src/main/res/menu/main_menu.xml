@@ -16,7 +16,7 @@
             android:title="CATEGORIES"
             android:icon="@drawable/menu_category_icon"/>
         <item
-            android:id="@+id/nav_add_missing_place"
+            android:id="@+id/nav_add"
             android:title="ADD MISSING PLACE"
             android:icon="@drawable/menu_add_misssing_place_icon"/>
 

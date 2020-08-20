@@ -16,12 +16,12 @@ public class CategoriesActivity extends AppCompatActivity {
 
         backBtn = findViewById(R.id.backBtn);
 
-//        backBtn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                CategoriesActivity.super.onBackPressed();
-//            }
-//        });
+        backBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                CategoriesActivity.super.onBackPressed();
+            }
+        });
 
     }
 }
